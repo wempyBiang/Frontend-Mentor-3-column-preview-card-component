@@ -28,6 +28,7 @@ p {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
 }
 
 #columns {
@@ -36,6 +37,8 @@ p {
     grid-template-rows: repeat (2,1fr );
     height: 80vh;
     width: 80vw;
+    
+
     
 }
 
@@ -49,6 +52,9 @@ p {
 
 .column-1 {
     background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
 }
 
 .column-1 a {
@@ -66,6 +72,8 @@ p {
 
 .column-3 {
     background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .column-3 a {
